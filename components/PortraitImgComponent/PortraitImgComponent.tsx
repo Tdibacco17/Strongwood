@@ -18,7 +18,7 @@ export default function PortraitImgComponent({
     isContactPage?: boolean
 }) {
     return (
-        <div className={`${styles["container-section-portraitImg"]} ${isContactPage && styles["isContactPage"]}`}>
+        <section className={`${styles["container-section-portraitImg"]} ${isContactPage && styles["isContactPage"]}`}>
             <div className={`${styles["container-outer-image"]}`}>
                 <Image
                     src={imageData.imgSrc}
@@ -29,9 +29,9 @@ export default function PortraitImgComponent({
                     style={{ objectPosition: imageData.objPosition }}
                     sizes="100vw"
                 />
-                <small className="loader">Cargando...</small>
             </div>
-            <div className={styles["container-overlay-image"]} />
+            <div className={styles["container-overlay-image"]}>
+            </div>
             {projectData &&
                 <div className={`${styles["container-overlay-titles"]} ${telonActive && styles["action-titles"]}`}>
                     <div className={styles["wrapper-overlay"]}>
@@ -54,6 +54,6 @@ export default function PortraitImgComponent({
                     </div>
                 </div>
             }
-        </div>
+        </section>
     )
 }

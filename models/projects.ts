@@ -1,38 +1,36 @@
 import { ProjectDataInterface } from "@/types/ProjectsTypes"
 
-export const projectsCategories: string[] = ["all", "kitchen", "bathroom", "closet", "local", "others", "products"]
+export const projectsCategories: string[] = [
+    "all", "kitchen", "closet", "bathroom", "desk", "warehouse",
+    "office-and-industry", "rack", "bedroom", "others", "products"
+]
 
 export const projectsData: ProjectDataInterface = {
-    homeData: {
+    aboutData: {
         projectSlug: "home-data",
         title: "",
         subtitle: "",
         image: {
-            "imgSrc": "/assets/img/homePage/logoStrong.webp",
+            "imgSrc": "/assets/img/aboutPage/Strong-58.webp",
             "imgAlt": "banner image",
-            "objPosition": "25% 50%"
+            "objPosition": "30% 50%"
         },
         details: {
-            rectangleImg: {
-                imgSrc: "/assets/img/homePage/Strong-29.webp",
-                imgAlt: "Serie Nova",
-                objPosition: "50% 0%"
-            },
             secondTwoSmallImg: [
                 {
-                    imgSrc: "/assets/img/homePage/Strong-10.webp",
+                    imgSrc: "/assets/img/aboutPage/Strong-10.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 },
                 {
-                    imgSrc: "/assets/img/homePage/Strong-105.webp",
+                    imgSrc: "/assets/img/aboutPage/Strong-105.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 }
             ],
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/homePage/Strong-1.webp",
+                    imgSrc: "/assets/img/aboutPage/Strong-1.webp",
                     imgAlt: "Home Image",
                     objPosition: "45% 50%"
                 },
@@ -51,7 +49,7 @@ export const projectsData: ProjectDataInterface = {
             },
             secondTechnicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/homePage/Strong-23.webp",
+                    imgSrc: "/assets/img/aboutPage/Strong-23.webp",
                     imgAlt: "Home Image",
                     objPosition: "50% 50%"
                 },
@@ -536,8 +534,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "local"],
-        urlSlug: "local"
+        categories: ["all", "office-and-industry"],
+        urlSlug: "office-and-industry"
     },
     "timo-online": {
         projectSlug: "timo-online",
@@ -579,8 +577,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "local"],
-        urlSlug: "local"
+        categories: ["all", "office-and-industry"],
+        urlSlug: "office-and-industry"
     },
     "recibidor-london": {
         projectSlug: "recibidor-london",
@@ -689,8 +687,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "others"],
-        urlSlug: "others"
+        categories: ["all", "rack"],
+        urlSlug: "rack"
     },
     "bodega-napoleon": {
         projectSlug: "bodega-napoleon",
@@ -739,8 +737,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "others"],
-        urlSlug: "others"
+        categories: ["all", "warehouse"],
+        urlSlug: "warehouse"
     },
     "vanitory-nordico": {
         projectSlug: "vanitory-nordico",
@@ -876,8 +874,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "local"],
-        urlSlug: "local"
+        categories: ["all", "office-and-industry"],
+        urlSlug: "office-and-industry"
     },
     "gorila-fitness": {
         projectSlug: "gorila-fitness",
@@ -919,8 +917,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "local"],
-        urlSlug: "local"
+        categories: ["all", "office-and-industry"],
+        urlSlug: "office-and-industry"
     },
     "vanitory-new-york": {
         projectSlug: "vanitory-new-york",
@@ -1217,8 +1215,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "others"],
-        urlSlug: "others"
+        categories: ["all", "desk"],
+        urlSlug: "desk"
     },
     "cama-matrimonial-nova": {
         projectSlug: "cama-matrimonial-nova",
@@ -1267,8 +1265,8 @@ export const projectsData: ProjectDataInterface = {
                 }
             }
         },
-        categories: ["all", "others"],
-        urlSlug: "others"
+        categories: ["all", "bedroom"],
+        urlSlug: "bedroom"
     },
     "placar-urbanwood": {
         projectSlug: "placar-urbanwood",

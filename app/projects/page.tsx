@@ -1,9 +1,8 @@
-import styles from "./page.module.scss"
+import { filterProjectsData } from "@/utils/filterProjectsData"
+import { ProjectDataInterface } from "@/types/ProjectsTypes"
+import ProjectsComponent from "@/components/ProjectsComponent/ProjectsComponent"
 
 export default function ProjectPage() {
-    return (
-        <div className={styles["container-section-projects"]}>
-            product
-        </div>
-    )
+    const parsedObject: ProjectDataInterface = filterProjectsData("all")
+    return <ProjectsComponent projectsData={parsedObject} projectSlug="all"/>
 }

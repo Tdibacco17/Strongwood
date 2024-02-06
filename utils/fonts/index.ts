@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 
 export const inter = Inter({
     subsets: ['latin'],
-    weight: ['300', '500', '400', '600'],
+    weight: ['300', '400', '700'],
     style: 'normal',
     preload: true,
     variable: '--strongwood-font',

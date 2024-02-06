@@ -1,8 +1,14 @@
 import { ImgDataInterface } from ".";
 
+export interface ProjectsDataContextInterface {
+    handleProjectDataChange?: Function;
+    projectData?: ProjectInterface;
+}
+
 export interface ProjectDataInterface {
     [id: string]: ProjectInterface;
 }
+
 export interface ProjectInterface {
     projectSlug: string;
     title: string;
@@ -28,11 +34,22 @@ export interface ProjectInterface {
 export type SelectedFilterInterface =
     "all"
     | "kitchen"
-    | "bathroom"
     | "closet"
-    | "local"
+    | "bathroom"
+    | "desk"
+    | "warehouse"
+    | "office-and-industry"
+    | "rack"
+    | "bedroom"
     | "others"
     | "products";
+
+export type ImgPlacheholderInterface = "portrait" | "rectangle" | "twoSmall"
+
+export interface ProjectSelectorInterface {
+    selectorTitle: string;
+    selectorFilter: string;
+};
 
 export interface TechnicalInfoInterface {
     image: ImgDataInterface,

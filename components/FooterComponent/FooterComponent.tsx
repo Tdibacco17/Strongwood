@@ -18,7 +18,7 @@ export default function FooterComponent() {
                     </div>
                 </div>
                 <div className={styles["secondary-footer"]}>
-                    <small className={styles["label"]}>{data.footer.company}</small>
+                    <small>{data.footer.company}</small>
                 </div>
             </div>
         </footer>

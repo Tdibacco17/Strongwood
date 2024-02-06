@@ -20,6 +20,71 @@
             }
         ]
     },
+    "homePage": {
+        "image": {
+            "imgSrc": "/assets/img/homePage/logoStrong.webp",
+            "imgAlt": "banner image",
+            "objPosition": "25% 50%"
+        }
+    },
+    "projectsPage": {
+        "title": "Proyectos",
+        "projectsSelector": {
+            "all": {
+                "selectorTitle": "Todos",
+                "selectorFilter": "all"
+            },
+            "kitchen": {
+                "selectorTitle": "Cocinas",
+                "selectorFilter": "kitchen"
+            },
+            "closet": {
+                "selectorTitle": "Placares",
+                "selectorFilter": "closet"
+            },
+            "bathroom": {
+                "selectorTitle": "Baño",
+                "selectorFilter": "bathroom"
+            },
+            "desk": {
+                "selectorTitle": "Escritorios",
+                "selectorFilter": "desk"
+            },
+            "warehouse": {
+                "selectorTitle": "Bodegas",
+                "selectorFilter": "warehouse"
+            },
+            "office-and-industry": {
+                "selectorTitle": "Oficina e industria",
+                "selectorFilter": "office-and-industry"
+            },
+            "rack": {
+                "selectorTitle": "Racks",
+                "selectorFilter": "rack"
+            },
+            "bedroom": {
+                "selectorTitle": "Dormitorio",
+                "selectorFilter": "bedroom"
+            },
+            "others": {
+                "selectorTitle": "Otros",
+                "selectorFilter": "others"
+            },
+            "products": {
+                "selectorTitle": "Temporada 2022",
+                "selectorFilter": "products"
+            }
+        }
+    },
+    "projectDetail": {
+        "titleDescription": "DESCRIPCIÓN",
+        "footerTitles": {
+            "materials": "Materiales",
+            "propousal": "Propuesta",
+            "year": "Año",
+            "location": "Localización"
+        }
+    },
     "contactPage": {
         "title": [
             "Hablemos sobre ",

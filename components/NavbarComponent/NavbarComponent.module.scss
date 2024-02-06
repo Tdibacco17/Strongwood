@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    z-index: 3;
+    z-index: 4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,6 @@
     height: 5rem;
     max-height: 5rem;
     transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
-    border-bottom: 1px solid var(--strongwood-white);
     color: var(--strongwood-white);
 
     &.active {
@@ -23,19 +22,15 @@
 
     &.active-menu {
         background-color: var(--strongwood-white);
-        border-bottom: 1px solid var(--strongwood-black);
+        border-bottom: 1px solid var(--strongwood-border);
         transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
-        color: var(--strongwood-black);
-    }
-
-    &:hover {
-        transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
-        background-color: var(--strongwood-white);
         color: var(--strongwood-black);
     }
 
     @media (max-width:768px) {
         padding: 0;
+        height: 4rem;
+        max-height: 4rem;
     }
 
     .wrapper-navbar {
@@ -43,13 +38,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        user-select: none;
 
         @media (max-width:768px) {
             width: var(--strongwood-max-width);
         }
 
         .logo {
-            font-size: 28pt;
+            font-size: 28px;
+
+            @media (max-width:768px) {
+                font-size: 26px;
+            }
         }
 
         .container-nav-title {
@@ -57,7 +57,14 @@
             gap: 1rem;
 
             .nav-title {
+                font-size: 16px;
+
                 &:hover {
+                    text-decoration: underline;
+                }
+
+                &.active {
+                    font-weight: 700;
                     text-decoration: underline;
                 }
             }
@@ -99,8 +106,18 @@
             }
 
             &:hover {
-                background-color: var(--strongwood-light-gray);
+                background-color: var(--strongwood-hover);
             }
+        }
+    }
+
+    &:hover {
+        transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
+        background-color: var(--strongwood-white);
+        color: var(--strongwood-black);
+
+        .container-burgermenu .icon-svg {
+            fill: var(--strongwood-black);
         }
     }
 }
