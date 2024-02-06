@@ -465,7 +465,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Equipamiento local",
         subtitle: "Farina e Pane",
         image: {
-            imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
+            imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-162.webp",
             imgAlt: "Farina e Pane",
             objPosition: "0% 50%"
         },
@@ -473,52 +473,52 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-162.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-162.webp",
                 imgAlt: "Farina e Pane",
                 objPosition: "25% 100%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-170.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-170.webp",
                     imgAlt: "Farina e Pane",
                     objPosition: "30% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-177.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-177.webp",
                     imgAlt: "Farina e Pane",
                     objPosition: "85% 50%",
                 }
             ],
             thirdTwoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-178.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-178.webp",
                     imgAlt: "Farina e Pane",
                     objPosition: "50% 50%"
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-187.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-187.webp",
                     imgAlt: "Farina e Pane",
                     objPosition: "50% 0%"
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-167.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-167.webp",
                 imgAlt: "Farina e Pane",
                 objPosition: "50% 60%",
             },
             secondRectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-182.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-182.webp",
                 imgAlt: "Farina e Pane",
                 objPosition: "0% 100%",
             },
             thirdRectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-183.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-183.webp",
                 imgAlt: "Farina e Pane",
                 objPosition: "0% 15%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/local/farinaPane/Strong-165.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-165.webp",
                     imgAlt: "Farina e Pane",
                     objPosition: "15% 0%"
                 },
@@ -542,7 +542,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Equipamiento oficina",
         subtitle: "Timo Online",
         image: {
-            imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
+            imgSrc: "/assets/img/projectsPage/office-and-industry/timoEscritorio/Strong-timo3.webp",
             imgAlt: "Timo Online",
             objPosition: "50% 80%"
         },
@@ -550,18 +550,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo3.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/timoEscritorio/Strong-timo3.webp",
                 imgAlt: "Timo Online",
                 objPosition: "60% 80%"
             },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo1.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/timoEscritorio/Strong-timo1.webp",
                 imgAlt: "Timo Online",
                 objPosition: "50% 45%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/local/timoEscritorio/Strong-timo4.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/timoEscritorio/Strong-timo4.webp",
                     imgAlt: "Timo Online",
                     objPosition: "50% 25%"
                 },
@@ -640,7 +640,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Rack TV",
         subtitle: "Serie London",
         image: {
-            imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-265.webp",
+            imgSrc: "/assets/img/projectsPage/rack/rackTvLondon/Strong-265.webp",
             imgAlt: "Rack TV",
             objPosition: "30% 80%"
         },
@@ -648,30 +648,30 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-265.webp",
+                imgSrc: "/assets/img/projectsPage/rack/rackTvLondon/Strong-265.webp",
                 imgAlt: "Rack TV",
                 objPosition: "30% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-257.webp",
+                    imgSrc: "/assets/img/projectsPage/rack/rackTvLondon/Strong-257.webp",
                     imgAlt: "Rack TV",
                     objPosition: "50% 50%",
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/others/rackTvLondon/IMG_2774.webp",
+                    imgSrc: "/assets/img/projectsPage/rack/rackTvLondon/IMG_2774.webp",
                     imgAlt: "Rack TV",
                     objPosition: "0% 50%",
                 }
             ],
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-255.webp",
+                imgSrc: "/assets/img/projectsPage/rack/rackTvLondon/Strong-255.webp",
                 imgAlt: "Rack TV",
                 objPosition: "30% 100%",
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/others/rackTvLondon/Strong-259.webp",
+                    imgSrc: "/assets/img/projectsPage/rack/rackTvLondon/Strong-259.webp",
                     imgAlt: "Rack TV",
                     objPosition: "10% 50%",
                 },
@@ -695,7 +695,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Bodega",
         subtitle: "Serie Napoleon",
         image: {
-            imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8511.webp",
+            imgSrc: "/assets/img/projectsPage/warehouse/bodega/IMG_8511.webp",
             imgAlt: "Bodega",
             objPosition: "50% 50%"
         },
@@ -703,25 +703,25 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8511.webp",
+                imgSrc: "/assets/img/projectsPage/warehouse/bodega/IMG_8511.webp",
                 imgAlt: "Bodega",
                 objPosition: "50% 60%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8517.webp",
+                    imgSrc: "/assets/img/projectsPage/warehouse/bodega/IMG_8517.webp",
                     imgAlt: "Bodega",
                     objPosition: "70% 0%"
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8507.webp",
+                    imgSrc: "/assets/img/projectsPage/warehouse/bodega/IMG_8507.webp",
                     imgAlt: "Bodega",
                     objPosition: "80% 100%"
                 }
             ],
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/others/bodega/IMG_8508.webp",
+                    imgSrc: "/assets/img/projectsPage/warehouse/bodega/IMG_8508.webp",
                     imgAlt: "Bodega",
                     objPosition: "50% 0%"
                 },
@@ -839,7 +839,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Equipamiento local",
         subtitle: "Noviembre cafe",
         image: {
-            imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
+            imgSrc: "/assets/img/projectsPage/office-and-industry/noviembreCafe/IMG_7048.webp",
             imgAlt: "Noviembre cafe",
             objPosition: "50% 63%"
         },
@@ -847,18 +847,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7048.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/noviembreCafe/IMG_7048.webp",
                 imgAlt: "Noviembre cafe",
                 objPosition: "0% 60%"
             },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7049.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/noviembreCafe/IMG_7049.webp",
                 imgAlt: "Noviembre cafe",
                 objPosition: "50% 20%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/local/noviembreCafe/IMG_7051.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/noviembreCafe/IMG_7051.webp",
                     imgAlt: "Noviembre Cafe",
                     objPosition: "50% 50%"
                 },
@@ -882,7 +882,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Recepción",
         subtitle: "Gorilla Fitness",
         image: {
-            imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila1.webp",
+            imgSrc: "/assets/img/projectsPage/office-and-industry/gorilaRecepcion/Strong-gorila1.webp",
             imgAlt: "Gorilla Fitness",
             objPosition: "50% 80%"
         },
@@ -890,18 +890,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila1.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/gorilaRecepcion/Strong-gorila1.webp",
                 imgAlt: "Gorilla Fitness",
                 objPosition: "50% 60%"
             },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila3.webp",
+                imgSrc: "/assets/img/projectsPage/office-and-industry/gorilaRecepcion/Strong-gorila3.webp",
                 imgAlt: "Gorilla Fitness",
                 objPosition: "50% 55%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/local/gorilaRecepcion/Strong-gorila2.webp",
+                    imgSrc: "/assets/img/projectsPage/office-and-industry/gorilaRecepcion/Strong-gorila2.webp",
                     imgAlt: "Gorilla Fitness",
                     objPosition: "50% 25%"
                 },
@@ -1180,7 +1180,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Escritorio",
         subtitle: "Serie Nova",
         image: {
-            imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-120.webp",
+            imgSrc: "/assets/img/projectsPage/desk/escritorioNova/Strong-120.webp",
             imgAlt: "Escritorio",
             objPosition: "15% 100%"
         },
@@ -1188,18 +1188,18 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-120.webp",
+                imgSrc: "/assets/img/projectsPage/desk/escritorioNova/Strong-120.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             rectangleImg: {
-                imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-118.webp",
+                imgSrc: "/assets/img/projectsPage/desk/escritorioNova/Strong-118.webp",
                 imgAlt: "Escritorio",
                 objPosition: "15% 100%"
             },
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/others/escritorioNova/Strong-123.webp",
+                    imgSrc: "/assets/img/projectsPage/desk/escritorioNova/Strong-123.webp",
                     imgAlt: "Escritorio",
                     objPosition: "50% 0%"
                 },
@@ -1223,7 +1223,7 @@ export const projectsData: ProjectDataInterface = {
         title: "Cama matrimonial",
         subtitle: "Serie Nova",
         image: {
-            imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6090.webp",
+            imgSrc: "/assets/img/projectsPage/bedroom/camaMatrimonialNova/IMG_6090.webp",
             imgAlt: "Cama matrimonial",
             objPosition: "50% 50%"
         },
@@ -1231,25 +1231,25 @@ export const projectsData: ProjectDataInterface = {
         location: "Buenos Aires, Argentina",
         details: {
             portraitImg: {
-                imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6090.webp",
+                imgSrc: "/assets/img/projectsPage/bedroom/camaMatrimonialNova/IMG_6090.webp",
                 imgAlt: "Cama matrimonial",
                 objPosition: "50% 50%"
             },
             twoSmallImg: [
                 {
-                    imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6100.webp",
+                    imgSrc: "/assets/img/projectsPage/bedroom/camaMatrimonialNova/IMG_6100.webp",
                     imgAlt: "Cama matrimonial",
                     objPosition: "90% 50%"
                 },
                 {
-                    imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6099.webp",
+                    imgSrc: "/assets/img/projectsPage/bedroom/camaMatrimonialNova/IMG_6099.webp",
                     imgAlt: "Cama matrimonial",
                     objPosition: "50% 50%"
                 }
             ],
             technicalInfo: {
                 image: {
-                    imgSrc: "/assets/img/projectsPage/others/camaMatrimonialNova/IMG_6092.webp",
+                    imgSrc: "/assets/img/projectsPage/bedroom/camaMatrimonialNova/IMG_6092.webp",
                     imgAlt: "Cama matrimonial",
                     objPosition: "50% 0%"
                 },
