@@ -1,0 +1,106 @@
+.container-section-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    height: 5rem;
+    max-height: 5rem;
+    transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
+    border-bottom: 1px solid var(--strongwood-white);
+    color: var(--strongwood-white);
+
+    &.active {
+        transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
+        background-color: var(--strongwood-white);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        color: var(--strongwood-black);
+    }
+
+    &.active-menu {
+        background-color: var(--strongwood-white);
+        border-bottom: 1px solid var(--strongwood-black);
+        transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
+        color: var(--strongwood-black);
+    }
+
+    &:hover {
+        transition: color var(--strongwood-transition), background-color var(--strongwood-transition);
+        background-color: var(--strongwood-white);
+        color: var(--strongwood-black);
+    }
+
+    @media (max-width:768px) {
+        padding: 0;
+    }
+
+    .wrapper-navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width:768px) {
+            width: var(--strongwood-max-width);
+        }
+
+        .logo {
+            font-size: 28pt;
+        }
+
+        .container-nav-title {
+            display: flex;
+            gap: 1rem;
+
+            .nav-title {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            @media (max-width:992px) {
+                display: none;
+            }
+        }
+
+        .container-burgermenu {
+            display: none;
+
+            @media (max-width:992px) {
+                display: flex;
+            }
+
+            justify-content: center;
+            align-items: center;
+            padding: 0.25rem;
+            cursor: pointer;
+            margin-right: -0.5rem;
+            border-radius: 50%;
+            height: 2.25rem;
+            width: 2.25rem;
+
+            .icon-svg {
+                fill: var(--strongwood-white);
+                transition: fill var(--strongwood-transition);
+
+                &.active {
+                    fill: var(--strongwood-black);
+                    transition: fill var(--strongwood-transition);
+                }
+
+                &.active-menu {
+                    fill: var(--strongwood-black);
+                    transition: fill var(--strongwood-transition);
+                }
+            }
+
+            &:hover {
+                background-color: var(--strongwood-light-gray);
+            }
+        }
+    }
+}

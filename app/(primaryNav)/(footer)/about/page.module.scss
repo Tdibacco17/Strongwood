@@ -1,0 +1,16 @@
+.container-section-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12rem;
+    width: 100vw;
+
+    @media (max-width:1200px) {
+        gap: 8rem;
+    }
+
+    @media (max-width:768px) {
+        gap: 3.75rem;
+    }
+}

@@ -1,0 +1,56 @@
+.container-section-burger-menu {
+    position: absolute;
+    top: 5rem;
+    right: -100vw;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    pointer-events: none;
+    transition: right 0.35s ease-in-out, opacity 0.35s ease-in-out;
+    opacity: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    min-height: calc(100vh - 5rem);
+    background-color: var(--strongwood-white);
+    padding: 3rem;
+    border-left: 1px solid var(--strongwood-white);
+    color: var(--strongwood-black);
+    pointer-events: auto;
+
+    &.active {
+        right: 0;
+        opacity: 1;
+        transition: right 0.35s ease-in-out, opacity 0.35s ease-in-out;
+    }
+
+    .nav-title {
+        color: var(--strongwood-black);
+        text-align: center;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.overlay-menu-container {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: var(--strongwood-bg-overlay);
+    pointer-events: none;
+
+    * {
+        user-select: none;
+    }
+}

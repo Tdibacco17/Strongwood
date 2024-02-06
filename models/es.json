@@ -1,0 +1,64 @@
+{
+    "navbar": {
+        "title": "StrongWood",
+        "navigation": [
+            {
+                "title": "Cotizar",
+                "url": "/quote"
+            },
+            {
+                "title": "Proyectos",
+                "url": "/projects"
+            },
+            {
+                "title": "Nosotros",
+                "url": "/about"
+            },
+            {
+                "title": "Contacto",
+                "url": "/contact"
+            }
+        ]
+    },
+    "contactPage": {
+        "title": [
+            "Hablemos sobre ",
+            "tu proyecto:"
+        ],
+        "contactDetails": {
+            "email": {
+                "title": "Email",
+                "address": "strongwoodventas@gmail.com",
+                "href": "mailto:strongwoodventas@gmail.com"
+            },
+            "whatsappDesktop": {
+                "title": "WhatsApp",
+                "address": "+54 911 7119 6506",
+                "href": "https://web.whatsapp.com/send?phone=5491171196506",
+                "classType": "isDesktop"
+            },
+            "whatsappMobile": {
+                "title": "WhatsApp",
+                "address": "+54 911 7119 6506",
+                "href": "https://wa.me/5491171196506",
+                "classType": "isMobile"
+            },
+            "instagram": {
+                "title": "Instagram",
+                "address": "strongwood_ar",
+                "icon": true,
+                "href": "https://www.instagram.com/strongwood_ar"
+            }
+        },
+        "image": {
+            "imgSrc": "/assets/img/contactPage/Strong-61.webp",
+            "imgAlt": "Imagen de contacto",
+            "objPosition": "50% 50%"
+        }
+    },
+    "footer": {
+        "scrollTo": "Ir arriba",
+        "titleContact": "Hablemos sobre tu proyecto:",
+        "company": "© 2023 StrongWood - Todos los derechos reservados"
+    }
+}
