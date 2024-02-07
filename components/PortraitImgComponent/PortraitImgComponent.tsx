@@ -30,8 +30,7 @@ export default function PortraitImgComponent({
                     sizes="100vw"
                 />
             </div>
-            <div className={styles["container-overlay-image"]}>
-            </div>
+            <div className={styles["container-overlay-image"]} />
             {projectData &&
                 <div className={`${styles["container-overlay-titles"]} ${telonActive && styles["action-titles"]}`}>
                     <div className={styles["wrapper-overlay"]}>

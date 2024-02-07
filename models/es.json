@@ -25,6 +25,52 @@
             "imgSrc": "/assets/img/homePage/logoStrong.webp",
             "imgAlt": "banner image",
             "objPosition": "25% 50%"
+        },
+        "categories": {
+            "subtitle": "Algunas de nuestras categorias",
+            "title": "Proyectos",
+            "redirect": {
+                "title": "Ver todo",
+                "url": "/projects"
+            },
+            "cards": {
+                "kitchen": {
+                    "url": "/projects/kitchen",
+                    "title": "Cocinas",
+                    "image": {
+                        "imgSrc": "/assets/img/projectsPage/kitchen/premium/Strong-284.webp",
+                        "imgAlt": "Kitchen categorie",
+                        "objPosition": "40% 50%"
+                    }
+                },
+                "closet": {
+                    "url": "/projects/closet",
+                    "title": "Placares",
+                    "image": {
+                        "imgSrc": "/assets/img/projectsPage/closet/premium/IMG_7911.webp",
+                        "imgAlt": "Closet categorie",
+                        "objPosition": "50% 50%"
+                    }
+                },
+                "office-and-industry": {
+                    "url": "/projects/office-and-industry",
+                    "title": "Oficina e industria",
+                    "image": {
+                        "imgSrc": "/assets/img/projectsPage/office-and-industry/farinaPane/Strong-162.webp",
+                        "imgAlt": "Office & Industry categorie",
+                        "objPosition": "30% 50%"
+                    }
+                },
+                "bathroom": {
+                    "url": "/projects/bathroom",
+                    "title": "Vanitorys",
+                    "image": {
+                        "imgSrc": "/assets/img/projectsPage/bathroom/nordico/Strong-241.webp",
+                        "imgAlt": "Bathroom categorie",
+                        "objPosition": "50% 50%"
+                    }
+                }
+            }
         }
     },
     "projectsPage": {
