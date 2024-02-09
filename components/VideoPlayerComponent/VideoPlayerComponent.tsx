@@ -7,13 +7,13 @@ const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 export default function VideoPlayerComponent() {
     return (
         <section className={styles["container-section-video"]}>
-            <ReactPlayer
+            {/* <ReactPlayer
                 className={styles["video"]}
                 url={data.homePage.video.url}
                 controls={true}
                 preload="metadata"
                 fallback={<div className={styles["skeleton-video"]} />}
-            />
+            /> */}
         </section>
     );
 }
