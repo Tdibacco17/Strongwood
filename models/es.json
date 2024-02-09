@@ -79,6 +79,9 @@
                     }
                 }
             }
+        },
+        "video":{
+            "url":"/assets/video/STRONGWOOD_2023.mp4"
         }
     },
     "projectsPage": {

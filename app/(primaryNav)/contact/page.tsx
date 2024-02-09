@@ -1,3 +1,4 @@
+import ContactDetailsComponent from "@/components/ContactDetailsComponent/ContactDetailsComponent";
 import styles from "./page.module.scss"
 import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgComponent";
 import data from "@/models/es.json"
@@ -11,6 +12,7 @@ export default function ContactPage() {
                 isContactPage={true}
                 heroData={undefined}
             />
+            <ContactDetailsComponent />
         </section>
     )
 }

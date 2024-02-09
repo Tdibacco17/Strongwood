@@ -2,6 +2,7 @@ import PortraitImgComponent from "@/components/PortraitImgComponent/PortraitImgC
 import styles from "./page.module.scss"
 import data from "@/models/es.json"
 import CategoriesComponent from "@/components/CategoriesComponent/CategoriesComponent";
+import VideoPlayerComponent from "@/components/VideoPlayerComponent/VideoPlayerComponent";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         heroData={data.homePage.hero}
       />
       <CategoriesComponent />
+      <VideoPlayerComponent />
     </div>
   );
 }

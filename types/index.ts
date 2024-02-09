@@ -24,3 +24,11 @@ export interface HeroDataInterface {
         title: string
     }
 }
+
+export interface ContactInterface {
+    title: string,
+    address: string,
+    href: string,
+    icon?: boolean,
+    classType?: string
+}
