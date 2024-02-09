@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from "./PortraitImgComponent.module.scss"
 import { ProjectInterface, SelectedFilterInterface } from '@/types/ProjectsTypes'
-import { ImgDataInterface } from '@/types'
+import { HeroDataInterface, ImgDataInterface } from '@/types'
 import Link from 'next/link'
 
 export default function PortraitImgComponent({
@@ -9,13 +9,15 @@ export default function PortraitImgComponent({
     projectData,
     telonActive,
     projectSlug,
-    isContactPage
+    isContactPage,
+    heroData
 }: {
     imageData: ImgDataInterface,
     projectData: ProjectInterface | undefined,
     telonActive?: boolean,
     projectSlug?: SelectedFilterInterface,
-    isContactPage?: boolean
+    isContactPage?: boolean,
+    heroData: HeroDataInterface | undefined
 }) {
     return (
         <section className={`${styles["container-section-portraitImg"]} ${isContactPage && styles["isContactPage"]}`}>
@@ -50,6 +52,20 @@ export default function PortraitImgComponent({
                     <div className={styles["title-back"]}>
                         <Link href={`/projects/${projectSlug}`}
                             className={styles["title"]}>Volver atrás</Link>
+                    </div>
+                </div>
+            }
+            {
+                heroData &&
+                <div className={styles["overlay-hero-container"]}>
+                    <div className={styles["hero-wrapper"]}>
+                        <div>
+                            <p className={styles["hero-title"]}>{heroData.title}</p>
+                            <p className={styles["hero-subtitle"]}>{heroData.subtitle}</p>
+                        </div>
+                        <Link href={heroData.button.url} className={styles["hero-button"]}>
+                            {heroData.button.title}
+                        </Link>
                     </div>
                 </div>
             }

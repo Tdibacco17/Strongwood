@@ -22,7 +22,7 @@ export default function NavbarComponent({
 }) {
     return (
         <>
-            <header className={`${styles["container-section-navbar"]} ${navType === "primary" && isAtTop ? "" : styles['active']} ${!isOpen ? "" : styles['active-menu']}`}>
+            <header className={`${styles["container-section-navbar"]} ${navType === "primary" && isAtTop ? "" : styles['active']} ${!isOpen ? "" : styles['active-menu']} ${navType === "primary" ? styles['hover'] : ""}`}>
                 <div className={styles["wrapper-navbar"]}>
                     <Link href={"/"} className={styles["logo"]} onClick={() => handleIsOpen(true)}>{data.navbar.title}</Link>
                     <nav className={styles["container-nav-title"]}>

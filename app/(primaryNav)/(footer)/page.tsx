@@ -9,6 +9,7 @@ export default function HomePage() {
       <PortraitImgComponent
         imageData={data.homePage.image}
         projectData={undefined}
+        heroData={data.homePage.hero}
       />
       <CategoriesComponent />
     </div>

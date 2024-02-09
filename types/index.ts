@@ -15,3 +15,12 @@ export interface IconProps {
 }
 
 export type NavInterface = "primary" | "secondary"
+
+export interface HeroDataInterface {
+    title: string,
+    subtitle: string,
+    button: {
+        url: string,
+        title: string
+    }
+}

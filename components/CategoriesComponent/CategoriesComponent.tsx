@@ -6,8 +6,15 @@ import Link from "next/link"
 export default function CategoriesComponent() {
     return (
         <section className={styles["container-section-categories"]}>
-            <p className={styles["title"]}>{data.homePage.categories.title}</p>
-            <p  className={styles["subtitle"]}>{data.homePage.categories.subtitle}</p>
+            <div className={styles["header-categories"]}>
+                <div>
+                    <p className={styles["title"]}>{data.homePage.categories.title}</p>
+                    <p className={styles["subtitle"]}>{data.homePage.categories.subtitle}</p>
+                </div>
+                <Link href={data.homePage.categories.redirect.url} className={styles["link"]}>
+                    {data.homePage.categories.redirect.title}
+                </Link>
+            </div>
             <div className={styles["container-categories"]}>
                 {
                     Object.values(data.homePage.categories.cards).map((item: any, index: number) => {
@@ -30,7 +37,10 @@ export default function CategoriesComponent() {
                     })
                 }
             </div>
-            <Link href={data.homePage.categories.redirect.url} className={styles["link"]}>{data.homePage.categories.redirect.title}</Link>
+            <Link href={data.homePage.categories.redirect.url} className={styles["link-mobile"]}>
+                {data.homePage.categories.redirect.title}
+            </Link>
+            <div className={styles["line-decoration"]} />
         </section>
     )
 }

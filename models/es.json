@@ -21,6 +21,14 @@
         ]
     },
     "homePage": {
+        "hero": {
+            "title": "Te ayudamos a crear tu proyecto realidad",
+            "subtitle": "Diseñamos y trabajamos la madera.",
+            "button": {
+                "url": "/quote",
+                "title": "Conseguir una cotización"
+            }
+        },
         "image": {
             "imgSrc": "/assets/img/homePage/logoStrong.webp",
             "imgAlt": "banner image",

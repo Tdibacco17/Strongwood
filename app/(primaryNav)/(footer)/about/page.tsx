@@ -12,6 +12,7 @@ export default function HomePage() {
         imageData={aboutData.image}
         projectData={undefined}
         isContactPage={true}
+        heroData={undefined}
       />
       {aboutData.details.technicalInfo &&
         <TwoSmallImgComponent

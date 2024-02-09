@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Viewport } from 'next'
 import "./globals.scss";
-import { inter } from "@/utils/fonts";
+import { roboto } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "StrongWood®",
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <main id="top">
           {children}
         </main>

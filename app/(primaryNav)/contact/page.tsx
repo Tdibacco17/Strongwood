@@ -9,6 +9,7 @@ export default function ContactPage() {
                 imageData={data.contactPage.image}
                 projectData={undefined}
                 isContactPage={true}
+                heroData={undefined}
             />
         </section>
     )
