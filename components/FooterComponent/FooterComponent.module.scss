@@ -10,8 +10,8 @@
     border-top: 1px solid var(--strongwood-border);
 
     @media (max-width:768px) {
-        height: 34rem;
-        max-height: 34rem;
+        height: 36rem;
+        max-height: 36rem;
     }
 
     .wrapper-footer {
@@ -60,7 +60,7 @@
                 align-items: flex-end;
 
                 @media (max-width:768px) {
-                    flex-direction: column;
+                    flex-direction: column-reverse;
                     align-items: flex-start;
                     // justify-content: flex-end;
                 }
