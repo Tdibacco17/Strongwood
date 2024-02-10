@@ -13,20 +13,27 @@
         padding: 0;
     }
 
-    .title {
-        font-size: 32px;
-        font-weight: 700;
-        color: var(--strongwood-gray);
-        text-transform: uppercase;
-        text-align: center;
-        max-width: 30rem;
+    .wrapper-title {
+        display: flex;
+        justify-content: center;
+        width: var(--strongwood-max-width);
+        max-width: var(--strongwood-max-width);
 
-        @media (max-width:768px) {
-            font-size: 26px;
-        }
+        .title {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--strongwood-gray);
+            text-transform: uppercase;
+            text-align: center;
+            max-width: 30rem;
 
-        @media (max-width:350px) {
-            font-size: 24px;
+            @media (max-width:768px) {
+                font-size: 26px;
+            }
+
+            @media (max-width:350px) {
+                font-size: 24px;
+            }
         }
     }
 

@@ -7,7 +7,9 @@ const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 export default function VideoPlayerComponent() {
     return (
         <section className={styles["container-section-video"]}>
-            <p className={styles["title"]}>{data.homePage.video.title}</p>
+            <div className={styles["wrapper-title"]}>
+                <p className={styles["title"]}>{data.homePage.video.title}</p>
+            </div>
             <div className={styles["wrapper"]}>
                 <div className={styles["video-container"]}>
                     <ReactPlayer
