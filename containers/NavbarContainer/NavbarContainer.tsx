@@ -32,7 +32,7 @@ export default function NavbarContainer({
     }
     useEffect(() => {
         return () => {
-            document.body.classList.remove('no-scroll');
+            document.documentElement.classList.remove('no-scroll');
         };
     }, []);
 
@@ -43,9 +43,9 @@ export default function NavbarContainer({
     }, [width])
 
     useEffect(() => {
-        document.body.classList.toggle('no-scroll', isOpen);
+        document.documentElement.classList.toggle('no-scroll', isOpen);
         return () => {
-            document.body.classList.remove('no-scroll');
+            document.documentElement.classList.remove('no-scroll');
         };
     }, [isOpen]);
 

@@ -90,8 +90,7 @@ textarea {
 }
 
 .no-scroll {
-    //altura + footer
-    max-height: calc(100vh + 15rem);
+    overflow-y: hidden;
 }
 
 .loader {

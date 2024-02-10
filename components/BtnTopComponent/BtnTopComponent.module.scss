@@ -20,6 +20,10 @@
         transition: opacity var(--strongwood-transition);
     }
 
+    @media (max-width:768px) {
+        padding-bottom: 8rem;
+    }
+
     .container-icon {
         pointer-events: auto;
         display: flex;

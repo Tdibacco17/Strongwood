@@ -9,14 +9,16 @@ export default function VideoPlayerComponent() {
         <section className={styles["container-section-video"]}>
             <p className={styles["title"]}>{data.homePage.video.title}</p>
             <div className={styles["wrapper"]}>
-                <ReactPlayer
-                    url={data.homePage.video.url}
-                    controls={true}
-                    preload="metadata"
-                    width="100%"
-                    height="100%"
-                    fallback={<small className={`${styles["skeleton"]} loader`}>Cargando...</small>}
-                />
+                <div className={styles["video-container"]}>
+                    <ReactPlayer
+                        url={data.homePage.video.url}
+                        controls={true}
+                        preload="metadata"
+                        width="100%"
+                        height="100%"
+                        fallback={<small className={`${styles["skeleton"]} loader`}>Cargando...</small>}
+                    />
+                </div>
             </div>
         </section>
     );

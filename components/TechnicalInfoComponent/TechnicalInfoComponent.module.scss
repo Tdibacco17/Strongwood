@@ -57,6 +57,10 @@
                 font-size: 16px;
             }
 
+            @media (max-width:442px) {
+                font-size: 14px;
+            }
+
             .spacer {
                 display: flex;
                 flex-direction: column;
@@ -101,7 +105,7 @@
         }
 
         @media (max-width:768px) {
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .row-wrapper {
@@ -117,7 +121,7 @@
             }
 
             @media (max-width:442px) {
-                gap: 3rem;
+                gap: 4rem;
             }
 
             .item-left {

@@ -4,13 +4,13 @@
     align-items: center;
     padding: 0 2rem;
     width: 100vw;
-    gap: 2.5rem;
+    gap: 2rem;
 
     @media (max-width:768px) {
         padding: 0;
         min-width: var(--strongwood-max-width);
         width: var(--strongwood-max-width);
-        gap: 2rem
+        gap: 0
     }
 
     .header-categories {
@@ -24,7 +24,14 @@
             font-weight: 700;
             text-align: left;
             width: 100%;
-            text-transform: uppercase;
+
+            @media (max-width:768px) {
+                font-size: 28px;
+            }
+
+            @media (max-width:350px) {
+                font-size: 26px;
+            }
         }
 
         .title {
@@ -149,6 +156,7 @@
         text-decoration: underline;
         text-transform: uppercase;
         font-weight: 700;
+        padding: 2rem 0;
 
         &:hover {
             color: var(--strongwood-black);
