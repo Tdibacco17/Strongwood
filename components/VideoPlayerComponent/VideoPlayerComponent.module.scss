@@ -21,6 +21,15 @@
         width: var(--strongwood-max-width);
         max-width: var(--strongwood-max-width);
         padding-bottom: 2rem;
+        max-width: 30rem;
+
+        @media (max-width:768px) {
+            font-size: 28px;
+        }
+
+        @media (max-width:350px) {
+            font-size: 26px;
+        }
     }
 
     .wrapper {

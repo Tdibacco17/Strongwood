@@ -1,7 +1,7 @@
 export default function QuotePage() {
     return (
         <div>
-            cotizar
+            Sección nueva a desarrollar
         </div>
     );
 }

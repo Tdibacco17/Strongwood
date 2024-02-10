@@ -24,7 +24,7 @@
         }
 
         .container-nav-title {
-            color: var(--strongwood-gray);
+            color: var(--strongwood-black);
         }
     }
 
@@ -128,6 +128,10 @@
 
             .container-nav-title {
                 color: var(--strongwood-gray);
+            }
+
+            .active {
+                color: var(--strongwood-black);
             }
 
             transition: color var(--strongwood-transition),
