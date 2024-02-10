@@ -4,14 +4,16 @@
     left: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     height: 100vh;
     min-width: 100vw;
     color: var(--strongwood-white);
     padding: 0 2rem;
+    padding-bottom: 10rem;
 
     @media (max-width:768px) {
         padding: 0;
+        padding-bottom: 10rem;
         justify-content: center;
     }
 

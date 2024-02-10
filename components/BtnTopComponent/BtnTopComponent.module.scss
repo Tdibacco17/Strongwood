@@ -7,7 +7,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-bottom: 5rem;
+    padding-bottom: 12rem;
     z-index: 2;
     background-color: transparent;
     user-select: none;
@@ -21,6 +21,7 @@
     }
 
     .container-icon {
+        pointer-events: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -29,10 +30,6 @@
         width: 3rem;
         cursor: pointer;
         opacity: 0.8;
-
-        * {
-            pointer-events: auto;
-        }
 
         .icon-svg {
             fill: var(--strongwood-white);

@@ -6,7 +6,7 @@ export interface ImgDataInterface {
 
 export interface IconProps {
     fill: string,
-    // size: "mini" | "small" | "medium",
+    // size?: "big" | "medium",
     hover: boolean,
     link?: string,
     isButton?: () => void,

@@ -80,8 +80,9 @@
                 }
             }
         },
-        "video":{
-            "url":"https://www.youtube.com/watch?v=UzXZYXh7erc"
+        "video": {
+            "title": "El balance perfecto entre hierro y madera",
+            "url": "https://www.youtube.com/watch?v=UzXZYXh7erc"
         }
     },
     "projectsPage": {
@@ -179,8 +180,27 @@
         }
     },
     "footer": {
+        "title": "StrongWood",
         "scrollTo": "Ir arriba",
         "titleContact": "Hablemos sobre tu proyecto:",
-        "company": "© 2023 StrongWood - Todos los derechos reservados"
+        "company": "© 2023 StrongWood - Todos los derechos reservados",
+        "navigation": [
+            {
+                "title": "Cotizar",
+                "url": "/quote"
+            },
+            {
+                "title": "Proyectos",
+                "url": "/projects"
+            },
+            {
+                "title": "Nosotros",
+                "url": "/about"
+            },
+            {
+                "title": "Contacto",
+                "url": "/contact"
+            }
+        ]
     }
 }

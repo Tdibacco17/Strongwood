@@ -63,7 +63,11 @@ body {
     background: var(--strongwood-white);
     min-height: 100vh;
     //altura footer
-    padding-bottom: 15rem;
+    padding-bottom: 18rem;
+
+    @media (max-width:768px) {
+        padding-bottom: 34rem;
+    }
 }
 
 body::-webkit-scrollbar {
@@ -90,7 +94,7 @@ textarea {
     max-height: calc(100vh + 15rem);
 }
 
-.loader{
+.loader {
     color: var(--strongwood-white);
     font-weight: 500;
     font-size: 14px;

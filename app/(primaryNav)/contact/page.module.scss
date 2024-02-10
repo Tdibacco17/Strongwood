@@ -1,4 +1,8 @@
 .container-section-contact {
-    margin-bottom: -15rem;
+    margin-bottom: -18rem;
     position: relative;
+
+    @media (max-width:768px) {
+        margin-bottom: -34rem;
+    }
 }

@@ -7,7 +7,7 @@ export const projectsCategories: string[] = [
 
 export const projectsData: ProjectDataInterface = {
     aboutData: {
-        projectSlug: "home-data",
+        projectSlug: "about-data",
         title: "",
         subtitle: "",
         image: {

@@ -92,8 +92,8 @@ export const InstagramIconComponent = ({ fill, hover, link }: IconProps) => {
 
 export const EmailIconComponent = ({ fill, hover, link }: IconProps) => {
     const EmailIcon = <svg
-        width={"1.25rem"}
-        height={"1.25rem"}
+        width={"2rem"}
+        height={"2rem"}
         fill="none"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@ export const EmailIconComponent = ({ fill, hover, link }: IconProps) => {
     </svg>
     if (link && link.length > 0) {
         return (
-            <LinkComponent link={link}  hover={hover}>
+            <LinkComponent link={link} hover={hover}>
                 {EmailIcon}
             </LinkComponent>
         )
