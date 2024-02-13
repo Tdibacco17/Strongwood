@@ -19,10 +19,6 @@ export type NavInterface = "primary" | "secondary"
 export interface HeroDataInterface {
     title: string,
     subtitle: string,
-    button: {
-        url: string,
-        title: string
-    }
 }
 
 export interface ContactInterface {

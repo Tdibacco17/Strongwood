@@ -3,10 +3,6 @@
         "title": "StrongWood",
         "navigation": [
             {
-                "title": "Cotizar",
-                "url": "/quote"
-            },
-            {
                 "title": "Proyectos",
                 "url": "/projects"
             },
@@ -23,11 +19,7 @@
     "homePage": {
         "hero": {
             "title": "Te ayudamos a crear tu proyecto realidad",
-            "subtitle": "Diseñamos y trabajamos la madera.",
-            "button": {
-                "url": "/quote",
-                "title": "Conseguir una cotización"
-            }
+            "subtitle": "Diseñamos y trabajamos la madera."
         },
         "image": {
             "imgSrc": "/assets/img/homePage/logoStrong.webp",
@@ -185,10 +177,6 @@
         "titleContact": "Hablemos sobre tu proyecto:",
         "company": "© 2023 StrongWood - Todos los derechos reservados",
         "navigation": [
-            {
-                "title": "Cotizar",
-                "url": "/quote"
-            },
             {
                 "title": "Proyectos",
                 "url": "/projects"

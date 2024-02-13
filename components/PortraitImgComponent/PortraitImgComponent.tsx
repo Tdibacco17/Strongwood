@@ -63,9 +63,9 @@ export default function PortraitImgComponent({
                             <p className={styles["hero-title"]}>{heroData.title}</p>
                             <p className={styles["hero-subtitle"]}>{heroData.subtitle}</p>
                         </div>
-                        <Link href={heroData.button.url} className={styles["hero-button"]}>
+                        {/* <Link href={heroData.button.url} className={styles["hero-button"]}>
                             {heroData.button.title}
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             }
