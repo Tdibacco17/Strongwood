@@ -13,8 +13,9 @@ export default function ProjectsCardComponent({ projectData, index }: { projectD
                     fill
                     className={`${styles["container-inner-image"]}`}
                     style={{ objectPosition: projectData.image.objPosition }}
-                    sizes="(max-width: 768px) 90vw, 100vw"
-                    priority={index < 7 ? true : false}
+                    // sizes="(max-width: 768px) 90vw, 100vw"
+                    quality={100}
+                    priority={index < 6 ? true : false}
                 />
                 <small className="loader">Cargando...</small>
             </div>
