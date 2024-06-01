@@ -27,7 +27,7 @@ export default function CategoriesComponent() {
                                 priority
                                 style={{ objectPosition: item.image.objPosition }}
                                 sizes="100vw"
-                                quality={100}
+                                // quality={100}
                             />
                             <div className={styles["container-overlay-image"]} />
                             <div className={styles["container-info-card"]}>

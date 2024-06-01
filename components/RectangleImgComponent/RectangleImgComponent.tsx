@@ -16,7 +16,7 @@ export default function RectangleImgComponent({
                 className={styles["container-inner-image"]}
                 style={{ objectPosition: imageData.objPosition }}
                 // sizes="(max-width: 768px) 90vw, 100vw"
-                quality={100}
+                // quality={100}
             />
             <small className="loader">Cargando...</small>
         </section>

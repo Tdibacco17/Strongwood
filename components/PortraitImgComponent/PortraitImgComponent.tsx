@@ -30,7 +30,7 @@ export default function PortraitImgComponent({
                     priority
                     style={{ objectPosition: imageData.objPosition }}
                     sizes="100vw"
-                    quality={100}
+                    // quality={100}
                 />
             </div>
             <div className={styles["container-overlay-image"]} />
