@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Viewport } from 'next'
 import "./globals.scss";
 import { roboto } from "@/utils/fonts";
+// import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "StrongWood®",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
     name: 'Tomás Di Bacco',
     url: 'https://www.linkedin.com/in/tomas-di-bacco/'
   },
-  manifest: '/manifest.json',
+  manifest: '../public/manifest.json',
 };
 
 export const viewport: Viewport = {
@@ -30,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <Head>
+        <link rel="icon" href="./favicon.ico" sizes="any" />
+      </Head> */}
       <body className={roboto.className}>
         <main id="top">
           {children}
