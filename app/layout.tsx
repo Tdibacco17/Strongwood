@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import type { Viewport } from 'next'
 import "./globals.scss";
 import { roboto } from "@/utils/fonts";
+import { Suspense } from "react";
+import { FacebookPixelEvents } from "@/components/MetaPixelComponent/MetaPixelComponent";
 
 export const metadata: Metadata = {
   title: "StrongWood®",
@@ -34,6 +36,9 @@ export default function RootLayout({
         <main id="top">
           {children}
         </main>
+        <Suspense fallback={null}>
+          <FacebookPixelEvents />
+        </Suspense>
       </body>
     </html>
   );
