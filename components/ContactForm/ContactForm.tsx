@@ -23,6 +23,8 @@ export default function ContactForm() {
         }
         try {
             const gRecaptchaToken = await executeRecaptcha("enquiryFormSubmit");
+            console.log("reCAPTCHA Token:", gRecaptchaToken);
+            
             const formData = new FormData(formRef.current!);
             const result: { success: boolean } = await ContactFormAction(formData, gRecaptchaToken);
 
