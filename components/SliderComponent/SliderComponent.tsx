@@ -67,23 +67,23 @@ export default function SliderComponent() {
                     </Link>
                     <Link href={"https://bou.com.ar/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="bou" src={'/assets/newImgs/welcome-scaled.jpeg'}
-                            style={{ objectFit: 'cover' }} />
+                            style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
                     </Link>
                     <Link href={"https://www.instagram.com/cicciarohelouarq/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="cicciaro&helou" src={'/assets/newImgs/cicciarohelou.jpg'}
-                            style={{ objectFit: 'cover' }} />
+                            style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
                     </Link>
                     <Link href={"https://www.mikaelianpropiedades.com/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="mikaelian" src={'/assets/newImgs/mikaelian.jpg'}
-                            style={{ objectFit: 'cover' }} />
+                            style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
                     </Link>
                     <Link href={"https://www.instagram.com/oja.arquitectos/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="oja" src={'/assets/newImgs/oja.jpeg'}
-                            style={{ objectFit: 'cover' }} />
+                            style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
                     </Link>
                     <Link href={"https://www.instagram.com/estudio_vm/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="estudioVm" src={'/assets/newImgs/estudio-vm.jpg'}
-                            style={{ objectFit: 'cover' }} />
+                            style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
                     </Link>
                 </Slider>
             </div>
