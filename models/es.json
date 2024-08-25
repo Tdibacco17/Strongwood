@@ -18,11 +18,12 @@
     },
     "homePage": {
         "hero": {
-            "title": "Te ayudamos a crear tu proyecto realidad",
-            "subtitle": "Diseñamos y trabajamos la madera."
+            "title": "Somos StrongWood",
+            "subtitle": "Transformamos tus espacios con soluciones a medida que van desde la idea inicial hasta la instalación final.",
+            "description": "Diseñamos, hacemos e instalamos muebles a medida para el hogar. "
         },
         "image": {
-            "imgSrc": "/assets/img/homePage/logoStrong.webp",
+            "imgSrc": "/assets/newImgs/img-8105.jpg",
             "imgAlt": "banner image",
             "objPosition": "25% 50%"
         },

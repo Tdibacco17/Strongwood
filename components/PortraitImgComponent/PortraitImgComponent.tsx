@@ -3,6 +3,7 @@ import styles from "./PortraitImgComponent.module.scss"
 import { ProjectInterface, SelectedFilterInterface } from '@/types/ProjectsTypes'
 import { HeroDataInterface, ImgDataInterface } from '@/types'
 import Link from 'next/link'
+import { BtnScrollToSection, OtherBtnScrollToSection } from './Btn'
 
 export default function PortraitImgComponent({
     imageData,
@@ -30,7 +31,7 @@ export default function PortraitImgComponent({
                     priority
                     style={{ objectPosition: imageData.objPosition }}
                     sizes="100vw"
-                    // quality={100}
+                // quality={100}
                 />
             </div>
             <div className={styles["container-overlay-image"]} />
@@ -62,11 +63,21 @@ export default function PortraitImgComponent({
                     <div className={styles["hero-wrapper"]}>
                         <div>
                             <p className={styles["hero-title"]}>{heroData.title}</p>
-                            <p className={styles["hero-subtitle"]}>{heroData.subtitle}</p>
+                            <div className={styles["hero-subtitle"]}>
+                                <p >{heroData.subtitle}</p>
+                                <p >{heroData.description}</p>
+                            </div>
                         </div>
-                        {/* <Link href={heroData.button.url} className={styles["hero-button"]}>
-                            {heroData.button.title}
-                        </Link> */}
+                        <div className={styles["container-btns"]}>
+                            <BtnScrollToSection styles={styles} />
+                            {/* <Link href={"https://web.whatsapp.com/send?phone=5491171196506"} className={styles["wpp-desktop"]} target='_blank'>
+                                PEDIR PRESUPUESTO
+                            </Link>
+                            <Link href={"https://wa.me/5491171196506"} className={styles["wpp-mobile"]} target='_blank'>
+                                PEDIR PRESUPUESTO
+                            </Link> */}
+                            <OtherBtnScrollToSection styles={styles} />
+                        </div>
                     </div>
                 </div>
             }

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import type { Viewport } from 'next'
 import "./globals.scss";
-import { roboto } from "@/utils/fonts";
+import { roboto, lato, montserrat } from "@/utils/fonts";
 import Script from "next/script";
 import Image from "next/image";
+import GoogleProvider from "./Provider";
 
 export const metadata: Metadata = {
   title: "StrongWood®",
@@ -20,7 +21,7 @@ export const viewport: Viewport = {
   themeColor: '#f7f4ed',
   width: 'device-width',
   initialScale: 1,
-  // maximumScale: 1,
+  maximumScale: 1,
   userScalable: true,
   colorScheme: 'light',
 }
@@ -56,10 +57,12 @@ export default function RootLayout({
           />
         </noscript>
       </head>
-      <body className={roboto.className}>
+      <body className={`${roboto.className} ${lato.variable} ${montserrat.variable}`}>
+      <GoogleProvider>
         <main id="top">
           {children}
         </main>
+      </GoogleProvider>
       </body>
     </html>
   );
