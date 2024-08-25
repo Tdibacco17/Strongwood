@@ -1,11 +1,11 @@
 'use client'
-import { Children, ReactNode } from "react";
+import { ReactNode } from "react";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 export default function GoogleProvider({ children }: { children: ReactNode }) {
     return (
         <GoogleReCaptchaProvider
-            reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_PUBLIC_KEY || ''}
+            reCaptchaKey={'6LcYoC4qAAAAAIJjfAUco4f5uQd7MRXvhGpVHi46'}
             scriptProps={{
                 async: false,
                 defer: false,
