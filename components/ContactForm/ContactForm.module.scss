@@ -9,7 +9,7 @@
     gap: 4rem;
 
     padding-top: 8rem;
-    padding-bottom: 12rem;
+    padding-bottom: 20rem;
 
     .title {
         font-size: 48px;
@@ -111,11 +111,19 @@
 
         input,
         select {
+            padding: 0.375rem 0.725rem;
             max-width: 100%;
             min-width: 100%;
             width: 100%;
-            padding: 0.375rem 0.725rem;
+            min-height: 36px;
+            max-height: 36px;
+            height: 36px;
         }
+
+        // select {
+        //     -webkit-appearance: none;
+        //     appearance: none;
+        // }
 
         input::placeholder,
         textarea::placeholder {
