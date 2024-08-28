@@ -28,7 +28,7 @@ export default function SliderComponent() {
         speed: 750,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {
@@ -65,10 +65,10 @@ export default function SliderComponent() {
                         <Image width={125} height={125} alt="cube" src={'/assets/newImgs/cube.jpg'}
                             style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
                     </Link>
-                    <Link href={"https://bou.com.ar/"} target="_blank" className={styles["img-container"]}>
+                    {/* <Link href={"https://bou.com.ar/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="bou" src={'/assets/newImgs/welcome-scaled.jpeg'}
                             style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
-                    </Link>
+                    </Link> */}
                     <Link href={"https://www.instagram.com/cicciarohelouarq/"} target="_blank" className={styles["img-container"]}>
                         <Image width={125} height={125} alt="cicciaro&helou" src={'/assets/newImgs/cicciarohelou.jpg'}
                             style={{ objectFit: 'cover', width: '100%', height: 'auto' }} />
