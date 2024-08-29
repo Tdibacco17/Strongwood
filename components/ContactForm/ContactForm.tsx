@@ -2,13 +2,15 @@
 import { ContactFormAction } from "@/app/actions"
 import styles from "./ContactForm.module.scss"
 import { useRef, useState } from "react"
-import Toast from "../Toast/Toas";
+// import Toast from "../Toast/Toas";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
     const formRef = useRef<HTMLFormElement>(null);
     const [loading, setLoading] = useState<boolean>(false);
-    const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+    // const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+    const router = useRouter()
 
     const { executeRecaptcha } = useGoogleReCaptcha();
 
@@ -17,7 +19,7 @@ export default function ContactForm() {
         setLoading(true);
 
         if (!executeRecaptcha) {
-            setToast({ message: 'ReCAPTCHA no está disponible', type: 'error' });
+            // setToast({ message: 'ReCAPTCHA no está disponible', type: 'error' });
             setLoading(false);
             return;
         }
@@ -29,21 +31,26 @@ export default function ContactForm() {
             const result: { success: boolean } = await ContactFormAction(formData, gRecaptchaToken);
 
             if (result.success) {
-                setToast({ message: 'Formulario enviado con éxito', type: 'success' });
+                router.push("/thanks")
                 formRef.current?.reset();
+                // setToast({ message: 'Formulario enviado con éxito', type: 'success' });
             } else {
-                setToast({ message: 'Hubo un error al enviar el formulario', type: 'error' });
+                router.push("/thanks")
+                formRef.current?.reset();
+                // setToast({ message: 'Hubo un error al enviar el formulario', type: 'error' });
             }
         } catch (error) {
-            setToast({ message: 'Hubo un error al validar el reCAPTCHA', type: 'error' });
+            router.push("/thanks")
+            formRef.current?.reset();
+            // setToast({ message: 'Hubo un error al validar el reCAPTCHA', type: 'error' });
         } finally {
             setLoading(false);
         }
     }
 
-    const handleCloseToast = () => {
-        setToast(null);
-    };
+    // const handleCloseToast = () => {
+    //     setToast(null);
+    // };
 
     return (
         <section id="contactForm" className={styles["contact-section"]}>
@@ -89,9 +96,9 @@ export default function ContactForm() {
                     {loading ? "Enviando..." : "Enviar"}
                 </button>
             </form>
-            {toast && (
+            {/* {toast && (
                 <Toast message={toast.message} type={toast.type} onClose={handleCloseToast} />
-            )}
+            )} */}
         </section>
     )
 }
